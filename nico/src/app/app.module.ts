@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ListaGenteComponent } from './lista-gente/lista-gente.component';
+import { MaterialImportsModule } from './material-imports/material-imports.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ListaGenteComponent } from './lista-gente/lista-gente.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MaterialImportsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
